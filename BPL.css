@@ -1,0 +1,278 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-family: roboto;
+}
+span a + a {
+   padding-left: 1rem;
+}
+h1{
+	font-size: 45px;
+}
+button{
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 30px
+
+}
+p{
+	font-size: 0.8rem;
+}
+
+li a{
+	color: black;
+}
+li a:hover{
+	text-decoration: none;
+	color: #FF5504;
+}
+hr{
+	border: 1px solid #2C2C2C;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-left: 2.5rem;
+    font-weight: bold;
+}
+.navbar-text {
+    font-size: 24px;
+}
+.btn{
+	height: 50px;
+	width: 150px;
+	color: white;
+	line-height: 1pt;
+	border-radius: 0px;
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+#carouselExampleSlidesOnly{
+	background-color: #04B6DA;
+}
+#carouselExampleSlidesOnly .section{
+	display: inline-block;
+	color: white;
+}
+#carouselExampleSlidesOnly label{
+	background-color: transparent;
+	width: 150px;
+	height: 50px;	line-height: 1.6;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#carouselExampleSlidesOnly .l2{
+	text-decoration: line-through;
+}
+#carouselExampleSlidesOnly .btn{
+	border: 2px solid white;
+	background-color: transparent;
+	width: 180px;
+	height: 40px;
+	color: white;
+	line-height: 1pt;
+	border-radius: 0px;
+}
+#carouselExampleSlidesOnly ol{
+	list-style-type: none;
+}
+ @media only screen and (max-width: 769px) {
+
+  .paras .image1{
+  	width: 100%;
+  	height: 100%;
+  } 
+}
+.text{
+	text-align: center;
+}
+#imagesMain{
+	margin-top: 30px;
+
+}
+.product{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ .image{
+	border: transparent;
+	padding-right:1rem;
+}
+.image img {
+     margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  
+}
+.caption{
+  
+  opacity: 0;
+  text-align: center;
+}
+.caption .btn{
+	color: white;
+	background: black;
+}
+.image:hover {    
+  background: #F0F0F2;
+  height: 380px;
+ }
+ .image:hover .caption{ 
+   font-weight: bold;
+   opacity: 1;
+                                         
+ }
+ 
+ 
+ #para{
+	margin-top: 50px;
+	background-color: #F5F5F5;
+	padding-bottom: 30px;
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	 justify-content: center;
+	list-style-type: none;
+	font-weight: bold;
+}
+.list .item + .item{
+	padding-left: 2rem;
+
+}
+#para .paras{
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#para .head1{
+	margin-left: 50px;
+	padding-top: 60px;
+}
+#para .list1{
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+#para .list1 .li1{
+color: grey;
+list-style-type: none;
+}
+.head1 h3{
+	color: #FF5504;
+}
+#para .head2{
+	margin-top: 60px;
+	margin-left: 70px;
+}
+#para .head2 td{
+	padding-left: 10px;
+	padding-right: 30px;
+	color: #FF5504;
+}
+#para1{
+	background-color: #ffffff;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#para1 .item1 .lead{
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#para1 .item3 .lead{
+	padding-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+#para1 .item2{
+	padding-top: 40px;
+}
+ #para1 .item3{
+	background-color: #FF8C17;
+  width: 300px;
+  padding: 30px;
+  height: 250px;
+  font-size: 13px;
+  color: white;
+}
+#para2{
+	 background-color: #F0F0F2;
+	 padding-top: 30px;
+}
+#para2 .item2 input {
+    width: 200px;
+    height: 45px;
+    margin-left: 0px;
+    border: 0.5px  grey;
+    background-image:url("../IMG/right.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 15px;		
+}	
+.list-group  .li2{
+	list-style-type: none;
+	display: flex;
+	color: #ACACAC;
+	font-size: 24px;
+	padding-left: 11%;
+	
+}#para2 .item3 {
+    margin-left: 30px;
+}
+.list-group .fab{
+	color: grey;
+} 
+#para3 {
+	background-color: 	#212121;
+}
+#para3 .container{
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#para3 ul {
+	list-style-type: none;
+	color: grey;
+	font-size: 14px;
+}
+#para3 .item{
+	line-height: 35px;
+	font-weight: bold;
+}
+#para3 .items + .items{
+	padding-top: 15px;
+}
+#para3 form{
+	color:#F38619 ;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.box{
+	color: #F38619;
+	border-color: #AE4C1F;
+	background-color: #212121; 
+	text-align: center;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: unset;
+}
+
+
+
+
+
+
+
